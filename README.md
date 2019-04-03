@@ -5,4 +5,6 @@
 4- Search for APK file in project directory.
 5- Upload assembled APK to dropbox.
 6- Send APK file link to dropbox through #android-team channel.
+
+HINT: To setup project folder, just set projectDirectory property in properties.props file.
 ```
