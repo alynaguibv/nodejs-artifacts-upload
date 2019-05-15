@@ -221,10 +221,10 @@ let getParentDir = function () {
             } else {
                 reject();
             }
-        }).catch(function(e){
-			log.log(e);
-			reject(e);
-		});
+        }).catch(function (e) {
+            log.log(e);
+            reject(e);
+        });
 
         function proceedAPKPath(apkPath) {
             let apkPathArr = apkPath.split('.apk');
@@ -333,15 +333,15 @@ let getParentDir = function () {
     });
 };
 
- removeBuildFolder().then(function (removeResult) {
-     updateLocalCMSWithLiveCMS().then(function (res) {
-         // produceAPK().then(function (produceResult) {
-         //     uploadAPKToDropbox().then(function (uploadResult) {
-         //     }).catch(function (err) {
-         //     });
-         // }).catch(function (err) {
-         // });
-     }).catch(function (err) {
-     });
- }).catch(function () {
- });
+removeBuildFolder().then(function (removeResult) {
+    updateLocalCMSWithLiveCMS().then(function (res) {
+        // produceAPK().then(function (produceResult) {
+        //     uploadAPKToDropbox().then(function (uploadResult) {
+        //     }).catch(function (err) {
+        //     });
+        // }).catch(function (err) {
+        // });
+    }).catch(function (err) {
+    });
+}).catch(function () {
+});
