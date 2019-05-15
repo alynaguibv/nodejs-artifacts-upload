@@ -1,5 +1,5 @@
 versionFileURL = https://beta.vodafone.de/config/android_v880_version.json
 slackURL = https://hooks.slack.com/services/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
-commandToAssembleAPK = gradlew.bat assembleQualityControlFlavorDebug
+commandToAssembleAPK = gradlew.bat assembleProductionflavorStoreRelease
 dropboxAccessToken = k-BujqrYTrAAAAAAAAABBdn6J4nsb5ul6nROZKEgnbMJ0Tds94EFTw6OjBoc6DGf
 projectDirectory = MVF-Android
